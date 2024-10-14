@@ -55,5 +55,8 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
 
+# Turn off ANNOYING ASS Bell
+unsetopt BEEP
+
 # Autorun
 nitch
