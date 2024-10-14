@@ -1,7 +1,7 @@
 # Minieks dotfiles
 
 This repository contains the fotfiles for my system
-![Picture of desktop](https://raw.githubusercontent.com/Miniek1/dotfiles/refs/heads/main/desktop.png?token=GHSAT0AAAAAACY6JCDJWK3VMKN76GJV7UVMZYNP66A)
+![Picture of desktop](https://github.com/Miniek1/dotfiles/blob/main/desktop.png?raw=true)
 
 
 ## Requirements
