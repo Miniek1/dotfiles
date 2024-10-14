@@ -1,6 +1,6 @@
 # Minieks dotfiles
 
-This repository contains the fotfiles for my system
+### This repository contains the dotfiles for my system
 ![Picture of desktop](https://github.com/Miniek1/dotfiles/blob/main/desktop.png?raw=true)
 
 
