@@ -26,3 +26,12 @@ Then use stow to crete the symlinks
 ```
 stow .
 ```
+
+Finally, make sure to install AGSv1 using the included MAKEPKG
+
+```
+cd ags
+makepkgs -si
+```
+
+Restart your computer and everything should be working!
