@@ -47,7 +47,7 @@
   "bar.customModules.storage.label": true,
   "bar.customModules.netstat.label": true,
   "bar.customModules.weather.label": true,
-  "bar.clock.format": "%e %b %R",
+  "bar.clock.format": "%a %e %b %R",
   "theme.bar.buttons.monochrome": false,
   "theme.bar.menus.menu.battery.scaling": 100
 }
