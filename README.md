@@ -5,14 +5,12 @@
 
 
 ## Requirements
-### Git
+### dependencies
 ```
-sudo pacman -S git
+sudo pacman -S git stow pipewire libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python gnome-bluetooth-3.0 pacman-contrib power-profiles-daemon gvfs
 ```
-
-### Stow
 ```
-sudo pacman -S Stow
+yay -S grimblast-git gpu-screen-recorder hyprpicker matugen-bin python-gpustat hyprsunset-git
 ```
 
 ## Installation
@@ -27,11 +25,25 @@ Then use stow to crete the symlinks
 stow .
 ```
 
-Finally, make sure to install AGSv1 using the included MAKEPKG
-
+### HyprPanel config
+## Starting HyprPanel
+Make sure to install AGSv1 using the included MAKEPKG
 ```
 cd ags
 makepkgs -si
 ```
 
-Restart your computer and everything should be working!
+now you can launch the panel with:
+```
+hyprctl dispatch exec agsv1 
+```
+
+## Edit the config file
+Edit these lines accordingly to your location, make sure to put your own API key from [weatherapi.com](https://www.weatherapi.com)
+```
+"menus.clock.weather.location": "",
+"menus.clock.weather.unit": "metric",
+"menus.clock.weather.key": "",
+```
+
+Finally, import the config file in the HyprPanel settings.
