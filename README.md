@@ -1,4 +1,4 @@
-[!NOTE]  
+>[!NOTE]  
 > I haven't updated this for a while. I'm planning on redoing most of it lol.
 
 # Minieks dotfiles
